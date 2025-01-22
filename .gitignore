@@ -25,4 +25,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment files (local configs)
+
+node_modules/
+dist/           # If using Vite, ignore the build folder
+build/          # If using CRA, ignore the build folder
+.env            # To avoid pushing sensitive Firebase credentials
+firebase-debug.log
+
 /.env.*
